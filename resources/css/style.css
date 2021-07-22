@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Libre Baskerville";
+    src: url("./resources/fonts/libre-baskerville/LibreBaskerville-Regular.ttf") format(truetype),
+         url("./resources/fonts/libre-baskerville/LibreBaskerville-Bold.ttf") format(truetype),
+         url("./resources/fonts/libre-baskerville/LibreBaskerville-Italic.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("./resources/fonts/nunito/Nunito-Regular.ttf"),
+         url("./resources/fonts/nunito/Nunito-Bold.ttf"),
+         url("./resources/fonts/nunito/Nunito-Italic.ttf");
+}
+
+h1 {
+    font-family: "Libre Baskerville" serif;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: "Nunito" sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    border: solid 2px black;
+    margin: 15px;
+    padding: 15px;
+}
