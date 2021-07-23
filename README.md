@@ -6,6 +6,6 @@ a simple static page that has a website style format. which fonts to use, which 
 
 html and css
 
-## link
+## future work
 
-<a href="./index.html">my_website_link</a>
+add more styles and formates to the page, and add more variety of formatting
