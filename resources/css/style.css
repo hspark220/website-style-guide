@@ -12,6 +12,11 @@
     url("../fonts/nunito/Nunito-Italic.ttf");
 }
 
+html {
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
 h1 {
   font-family: "Libre Baskerville";
   font-size: 26px;
@@ -20,6 +25,11 @@ h1 {
 h2 {
   font-family: "Nunito";
   font-size: 18px;
+}
+
+.title {
+  margin-left: 15px;
+  font-size: 40px;
 }
 
 .container {
@@ -34,4 +44,53 @@ h2 {
 
 .nunito {
   font-family: "Nunito", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.italic {
+  font-weight: italic;
+}
+
+.flat-button {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 200px;
+  text-align: center;
+}
+
+.flat-button:hover {
+  cursor: pointer;
+}
+
+.flat-button:active {
+  background-color: grey;
+  color: white;
+}
+
+.skeuomorphism-button {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 2px;
+}
+
+.skeuomorphism-button:hover {
+  cursor: pointer;
+}
+
+.skeuomorphism-button:active {
+  background-color: grey;
+  color: white;
 }
