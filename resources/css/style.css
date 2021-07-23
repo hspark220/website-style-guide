@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
   font-family: "Libre Baskerville";
   src: url("../fonts/libre-baskerville/LibreBaskerville-Regular.ttf"),
@@ -12,6 +13,7 @@
     url("../fonts/nunito/Nunito-Italic.ttf");
 }
 
+/* Basic outline */
 html {
   margin-left: 100px;
   margin-top: 15px;
@@ -19,25 +21,32 @@ html {
 
 h1 {
   font-family: "Libre Baskerville";
-  font-size: 26px;
+  font-size: 36px;
 }
 
 h2 {
   font-family: "Nunito";
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h3 {
   font-size: 18px;
 }
 
 .title {
-  margin-left: 15px;
+  text-align: center;
   font-size: 40px;
 }
 
 .container {
   border: solid 2px black;
-  margin: 15px;
+  margin: 15px auto;
   padding: 15px;
+  width: 800px;
 }
 
+/* font styling */
 .libre-baskerville {
   font-family: "Libre Baskerville", serif;
 }
@@ -58,6 +67,7 @@ h2 {
   font-weight: italic;
 }
 
+/* buttons */
 .flat-button {
   margin: 20px;
   padding: 10px;
@@ -93,4 +103,42 @@ h2 {
 .skeuomorphism-button:active {
   background-color: grey;
   color: white;
+}
+
+/* colors */
+
+.colors p {
+  padding: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.yellowish,
+.light-yellowish,
+.dark-blueish,
+.beigeish {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+}
+
+.yellowish {
+  background-color: rgb(240, 206, 117);
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.light-yellowish {
+  background-color: rgb(246, 224, 184);
+  margin-right: 50px;
+}
+
+.dark-blueish {
+  background-color: rgb(40, 51, 62);
+  margin-right: 50px;
+  color: white;
+}
+
+.beigeish {
+  background-color: rgb(200, 182, 132);
 }
