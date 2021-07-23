@@ -8,4 +8,4 @@ html and css
 
 ## link
 
-[my_website_style_guide]("./index.html")
+[my_website_style_guide]("./index")
